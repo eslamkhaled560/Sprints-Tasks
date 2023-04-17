@@ -5,27 +5,30 @@ echo "This script will print variables, and execute Linux commands"
 
 # Functions for environment deails
 function current_dir {
-	echo "Current Directory:"
-    pwd
-    echo "Exit Code: $?"
-	echo
+	echo "Current Working Directory is:"
+	pwd
+    	echo "Exit Code: $?"
+	echo ---------------------------------------------------------------------------------------
 }
 
 function current_user {
-	echo "Current User:"
-    whoami
-    echo "Exit Code: $?"
-	echo
+	echo "Currenr User who's logged in:"
+	whoami
+	echo "Exit Code: $?"
+	echo ---------------------------------------------------------------------------------------
 }
 
 function files_in_home {
-	echo "All Files in Home Directory:"
-    ls -la ~
-    echo "Exit Code: $?"
+	echo "All files in Home Directory in details:"
+	ls -la ~
+	echo "Exit Code: $?"
 }
 
 # Call each function
+echo ---------------------------------------------------------------------------------------
+echo "Here is some deatils about my environment:"
 echo
 current_dir
 current_user
 files_in_home
+echo ---------------------------------------------------------------------------------------
