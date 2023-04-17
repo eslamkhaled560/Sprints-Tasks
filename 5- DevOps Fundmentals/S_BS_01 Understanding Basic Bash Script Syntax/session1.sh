@@ -24,7 +24,7 @@ function files_in_home {
 
 # Call each function
 echo ---------------------------------------------------------------------------------------
-echo "Here is some deatils about my environment:"
+echo "Here is some details about my environment:"
 echo
 current_dir
 current_user
