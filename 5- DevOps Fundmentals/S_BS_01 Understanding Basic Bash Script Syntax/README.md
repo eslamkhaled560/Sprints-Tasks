@@ -21,15 +21,13 @@ echo "This script will print variables, and execute Linux commands"
 
 # Functions for environment deails
 function current_dir {
-	echo "Current Working Directory is:"
-	pwd
+	echo "Current Working Directory is: $(pwd)"
     	echo "Exit Code: $?"
 	echo ---------------------------------------------------------------------------------------
 }
 
 function current_user {
-	echo "Currenr User who's logged in:"
-	whoami
+	echo "Currenr User who's logged in is: $(whoami) "
 	echo "Exit Code: $?"
 	echo ---------------------------------------------------------------------------------------
 }
@@ -42,7 +40,7 @@ function files_in_home {
 
 # Call each function
 echo ---------------------------------------------------------------------------------------
-echo "Here is some deatils about my environment:"
+echo "Here is some details about my environment:"
 echo
 current_dir
 current_user
@@ -51,7 +49,7 @@ echo ---------------------------------------------------------------------------
 ```     
 
 -------------------------
-### The Output:
-![image](https://user-images.githubusercontent.com/54172897/232488630-b37f4cda-5c66-4a72-b5a3-910225fef4ea.png)
-      
+### The Output:      
+![image](https://user-images.githubusercontent.com/54172897/232524544-9ce2d3ae-3d25-472b-8cf2-ecfbace2648e.png)
+
 ------------------
