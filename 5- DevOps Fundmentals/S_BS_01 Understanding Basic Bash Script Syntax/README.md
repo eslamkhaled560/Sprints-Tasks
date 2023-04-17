@@ -16,39 +16,42 @@ and here is the code inside the script:
 ```
 #!/bin/bash
 echo "This script will print variables, and execute Linux commands"
-# (nin>bin) and (Echo>echo)
+# (nin>bin) and (Echo>echo) 
 
 
-# Functions for environment details
+# Functions for environment deails
 function current_dir {
-	echo "Current Directory:"
-    pwd
-    echo "Exit Code: $?"
-	echo
+	echo "Current Working Directory is:"
+	pwd
+    	echo "Exit Code: $?"
+	echo ---------------------------------------------------------------------------------------
 }
 
 function current_user {
-	echo "Current User:"
-    whoami
-    echo "Exit Code: $?"
-	echo
+	echo "Currenr User who's logged in:"
+	whoami
+	echo "Exit Code: $?"
+	echo ---------------------------------------------------------------------------------------
 }
 
 function files_in_home {
-	echo "All Files in Home Directory:"
-    ls -la ~
-    echo "Exit Code: $?"
+	echo "All files in Home Directory in details:"
+	ls -la ~
+	echo "Exit Code: $?"
 }
 
 # Call each function
+echo ---------------------------------------------------------------------------------------
+echo "Here is some deatils about my environment:"
 echo
 current_dir
 current_user
 files_in_home
+echo ---------------------------------------------------------------------------------------
 ```     
 
 -------------------------
 ### The Output:
-![image](https://user-images.githubusercontent.com/54172897/232480579-0553454d-4c90-4042-969d-1ecdd2d8c1f2.png)
+![image](https://user-images.githubusercontent.com/54172897/232488630-b37f4cda-5c66-4a72-b5a3-910225fef4ea.png)
       
 ------------------
