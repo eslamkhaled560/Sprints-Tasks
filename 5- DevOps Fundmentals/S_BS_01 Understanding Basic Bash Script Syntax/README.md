@@ -9,7 +9,7 @@ _Islam Khaled_
 14 April 2023
 
 -----------------------------------------
-### The script:
+### The Script:
 
 The original script is provided here [session1.sh](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/5-%20DevOps%20Fundmentals/S_BS_01%20Understanding%20Basic%20Bash%20Script%20Syntax/session1.sh), 
 and here is the code inside the script:
