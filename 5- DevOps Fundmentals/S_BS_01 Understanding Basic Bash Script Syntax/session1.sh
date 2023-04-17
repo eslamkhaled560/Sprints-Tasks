@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "This script will print variables, and execute Linux commands"
-# (nin>bin) and (Echo>echo)
+# (nin>bin) and (Echo>echo) 
 
 
 # Functions for environment deails
