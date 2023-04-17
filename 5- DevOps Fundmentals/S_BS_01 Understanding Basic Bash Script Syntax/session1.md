@@ -6,7 +6,7 @@ _Omar Mohsen_
 **Presented by:**   
 _Islam Khaled_    
 
-> 14 April 2023
+14 April 2023
 
 -----------------------------------------
 ### The script:
