@@ -19,7 +19,7 @@ echo "This script will print variables, and execute Linux commands"
 # (nin>bin) and (Echo>echo)
 
 
-# Functions for environment deails
+# Functions for environment details
 function current_dir {
 	echo "Current Directory:"
     pwd
