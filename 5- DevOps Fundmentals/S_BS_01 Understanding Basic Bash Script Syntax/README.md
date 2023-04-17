@@ -11,7 +11,7 @@ _Islam Khaled_
 -----------------------------------------
 ### The Script:
 
-The original script is provided here [session1.sh](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/5-%20DevOps%20Fundmentals/S_BS_01%20Understanding%20Basic%20Bash%20Script%20Syntax/session1.sh), 
+The original script is provided [session1.sh](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/5-%20DevOps%20Fundmentals/S_BS_01%20Understanding%20Basic%20Bash%20Script%20Syntax/session1.sh) , 
 and here is the code inside the script:
 ```
 #!/bin/bash
