@@ -39,7 +39,7 @@ function send_files {
         echo "Error: Compressed file 'system_info.tar.gz' was not created"
         exit 1
     else
-        echo "Compressed file 'system_info.tar.gz' created succesfully"
+        echo "Compressed file 'system_info.tar.gz' succesfully created"
         echo
     fi
     
