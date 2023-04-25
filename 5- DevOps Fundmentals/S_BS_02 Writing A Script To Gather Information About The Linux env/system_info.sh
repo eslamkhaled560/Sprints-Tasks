@@ -60,6 +60,7 @@ function send_files {
         echo "Compressed file transfered to destination succesfully"
     fi
     
+    # Clear Info
     rm system_info.tar.gz ps_info.txt memory_usage.txt disk_usage.txt dmesg.txt
 }
 
