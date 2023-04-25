@@ -114,4 +114,5 @@ On WSL (Windows Subsystem Linux):
 ### After Running Script:
 
 ![image](https://user-images.githubusercontent.com/54172897/234341104-a1ff76d2-ed7e-4e04-8e9e-861a8b064c0e.png)
+
 -------------------------
