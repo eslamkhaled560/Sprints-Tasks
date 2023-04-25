@@ -95,7 +95,7 @@ send_files
 -------------------------
 ### Before Running Script:
 
-Getting the IP adress of the VM (destination):
+Getting the IP address of the VM (destination):
 
 ![image](https://user-images.githubusercontent.com/54172897/234338790-b7af2d60-fb4e-4631-8ec4-8627c33ddaba.png)
 
