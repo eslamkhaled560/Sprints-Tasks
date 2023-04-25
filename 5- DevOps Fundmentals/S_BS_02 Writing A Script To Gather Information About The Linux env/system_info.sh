@@ -12,7 +12,7 @@ function run_command {
         echo "Command '$1' ran succesfully."
     fi
     
-     # Parse the disk usage output to extract the path and usage percentage
+    # Parse the disk usage output to extract the path and usage percentage
     if [ "$1" == "df -h /" ]; then
             disk_path=$(awk 'NR==2{print $NF}' disk_usage.txt)
             disk_usage=$(awk 'NR==2{print $5}' disk_usage.txt)
@@ -39,7 +39,7 @@ function send_files {
         echo "Error: Compressed file 'system_info.tar.gz' was not created"
         exit 1
     else
-        echo "Compressed file 'system_info.tar.gz' succesfully created"
+        echo "Compressed file 'system_info.tar.gz' created succesfully"
         echo
     fi
     
