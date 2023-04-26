@@ -119,6 +119,7 @@ On WSL (Windows Subsystem Linux):
 > That's why I used ```dmesg``` command:
 
 ![image](https://user-images.githubusercontent.com/54172897/234542763-31afbb49-dfcf-4052-88bd-ed9330ab283b.png)
+![image](https://user-images.githubusercontent.com/54172897/234550466-02841241-6942-4c18-aaca-8b0f804fd94b.png)
 
 -------------------------
 ### After Running Script:
