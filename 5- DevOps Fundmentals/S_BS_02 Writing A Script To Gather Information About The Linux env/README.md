@@ -110,9 +110,19 @@ On WSL (Windows Subsystem Linux):
 
 ![image](https://user-images.githubusercontent.com/54172897/234340505-68ca7c14-70c5-43a7-a06f-72fa86e86e28.png)
 
+WSL is very simple system so that lots of system files isn't available
+Like ```/var/log/dmesg``` file.
+
+![image](https://user-images.githubusercontent.com/54172897/234542380-aaa29836-4d4c-4a2c-9fe9-90f8e184dd1e.png)
+
+That's why I used ```dmesg``` command:
+
+![image](https://user-images.githubusercontent.com/54172897/234542763-31afbb49-dfcf-4052-88bd-ed9330ab283b.png)
+
 -------------------------
 ### After Running Script:
 
 ![image](https://user-images.githubusercontent.com/54172897/234341104-a1ff76d2-ed7e-4e04-8e9e-861a8b064c0e.png)
+![image](https://user-images.githubusercontent.com/54172897/234544245-9d0b2fdd-8a7e-40d4-a139-bdfc16ec3932.png)
 
 -------------------------
