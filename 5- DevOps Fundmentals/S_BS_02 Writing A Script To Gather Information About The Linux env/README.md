@@ -110,7 +110,7 @@ On WSL (Windows Subsystem Linux):
 
 ![image](https://user-images.githubusercontent.com/54172897/234340505-68ca7c14-70c5-43a7-a06f-72fa86e86e28.png)
 
-WSL is very simple system so that lots of system files isn't available
+WSL is very simple system so that lots of system files isn't available      
 Like ```/var/log/dmesg``` file.
 
 ![image](https://user-images.githubusercontent.com/54172897/234542380-aaa29836-4d4c-4a2c-9fe9-90f8e184dd1e.png)
