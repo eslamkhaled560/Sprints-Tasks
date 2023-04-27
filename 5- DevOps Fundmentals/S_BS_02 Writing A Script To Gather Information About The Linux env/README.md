@@ -101,6 +101,8 @@ Getting the IP address of the VM (destination):
 
 Making sure everything is ready in the destination location:
 
+![image](https://user-images.githubusercontent.com/54172897/234853704-c56b6cac-eecb-4a3a-8212-9b496b91fa1c.png)
+
 ![image](https://user-images.githubusercontent.com/54172897/234339111-49c0da53-562c-4221-ae1e-9fc7d619a411.png)
 
 -------------------------
