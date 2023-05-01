@@ -15,5 +15,6 @@ The original script is provided here: [String Mutation](https://github.com/eslam
 -----------------------------------------
 ### The Output:
 
+![Capture](https://user-images.githubusercontent.com/54172897/235538577-34ba4c33-b8d8-4bec-8987-61e738260832.JPG)
 
-
+-----------------------------------------
