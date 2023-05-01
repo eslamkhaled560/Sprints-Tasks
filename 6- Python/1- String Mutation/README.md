@@ -9,7 +9,7 @@ _Islam Khaled_
 2 May 2023
 
 -----------------------------------------
-### The Script:
+### The Code:
 The original code is provided here: [String Mutation](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/6-%20Python/1-%20String%20Mutation/main.py).
 
 -----------------------------------------
