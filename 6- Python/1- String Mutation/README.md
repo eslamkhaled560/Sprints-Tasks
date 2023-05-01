@@ -15,6 +15,6 @@ The original code is provided here: [String Mutation](https://github.com/eslamkh
 -----------------------------------------
 ### The Output:
 
-![Capture](https://user-images.githubusercontent.com/54172897/235538577-34ba4c33-b8d8-4bec-8987-61e738260832.JPG)
+![image](https://user-images.githubusercontent.com/54172897/235540953-5633ba6c-6cf7-46f9-84a9-1fcc136d2083.png)
 
 -----------------------------------------
