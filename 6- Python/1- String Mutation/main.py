@@ -14,10 +14,8 @@ def string_modification(string_input, position, new_string):
     return final_string
 
 
-# Secure initialization
 string_to_modify = ''
 
-# Use program more than once
 while True:
     try:
         print('*' * 70)
@@ -29,7 +27,7 @@ while True:
         print("Original string: ", string_to_modify)
 
         # Ask user for index
-        index_to_modify = int(input("enter the index that you want to replace its value: "))
+        index_to_modify = int(input("Enter the index that you want to replace its value: "))
 
         # Handle out of range errors immediately
         if index_to_modify >= len(string_to_modify) or index_to_modify < -len(string_to_modify):
