@@ -1,7 +1,7 @@
 # Session 2 Python - String Mutation
 
 **Presented to:**    
-_Basma Naser_    
+_Basma Nasser_    
 
 **Presented by:**   
 _Islam Khaled_    
