@@ -15,6 +15,6 @@ The original code is provided here: [Leap Year](https://github.com/eslamkhaled56
 -----------------------------------------
 ### The Output:
 
-![image](https://user-images.githubusercontent.com/54172897/235907369-c36efd2a-6de8-40c7-8e01-be465282b32b.png)
+![image](https://user-images.githubusercontent.com/54172897/236004740-f28c825f-56a3-45c6-8453-668c1b0cf47f.png)
 
 -----------------------------------------
