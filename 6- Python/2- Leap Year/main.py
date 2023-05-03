@@ -13,7 +13,7 @@ while True:
         if year == 0:
             break
 
-        # Handling 0's and -ve input
+        # Handling -ve input
         if year < 0:
             raise ValueError
 
