@@ -1,4 +1,4 @@
-# Session 2 Python - String Mutation
+# Session 2 Task 1 Python - String Mutation
 
 **Presented to:**    
 _Basma Nasser_    
