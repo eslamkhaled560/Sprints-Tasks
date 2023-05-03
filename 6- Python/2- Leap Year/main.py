@@ -7,26 +7,22 @@ def is_leap(year):
 
 while True:
     try:
-        year = input("Please enter a year or exit program: ")
+        year = int(input("Please enter a year or exit program: "))
 
         # Exit program
-        if year == "exit":
+        if year == 0:
             break
 
-        int_year = int(year)
-
         # Handling 0's and -ve input
-        if int_year <= 0:
+        if year < 0:
             raise ValueError
 
         # Call the is_leap function and print the result
-        if is_leap(int_year):
-            print(int_year, "is a leap year.")
+        if is_leap(year):
+            print(year, "is a leap year. Type 0 if you want to exit\n")
         else:
-            print(int_year, "is not a leap year.")
+            print(year, "is not a leap year. Type 0 if you want to exit\n")
 
     # Handling user input errors
     except ValueError:
         print("Error: Please enter a valid positive integer.")
-
-    print("You can type exit when you're done\n")
