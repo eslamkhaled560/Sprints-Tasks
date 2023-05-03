@@ -27,4 +27,4 @@ while True:
     except ValueError:
         print("Error: Please enter a valid positive integer.")
        
-    print("Program ended. Thank you!")
+print("Program ended. Thank you!")
