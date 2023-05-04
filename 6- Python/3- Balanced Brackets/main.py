@@ -29,6 +29,13 @@ def is_balanced(brackets):
 
 while True:
     str_brackets = input("Please enter the brackets string: ")
+
+    if str_brackets.isspace():
+        print("Error!")
+        continue
+    else:
+        str_brackets = str_brackets.replace(" ", "")
+
     if str_brackets == "exit":
         break
 
@@ -36,7 +43,6 @@ while True:
     for char in str_brackets:
         if char not in ['(', ')', '[', ']', '{', '}']:
             error_list.append(1)
-
     if error_list:
         print("Error!")
         continue
