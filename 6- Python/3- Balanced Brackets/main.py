@@ -30,8 +30,11 @@ def is_balanced(brackets):
 while True:
     str_brackets = input("Please enter the brackets string: ")
 
-    if str_brackets.isspace():
-        print("Error!")
+    if not str_brackets:
+        print("Empty!")
+        continue
+    elif str_brackets.isspace():
+        print("Spaces error!")
         continue
     else:
         str_brackets = str_brackets.replace(" ", "")
@@ -44,7 +47,7 @@ while True:
         if char not in ['(', ')', '[', ']', '{', '}']:
             error_list.append(1)
     if error_list:
-        print("Error!")
+        print("input error!")
         continue
 
     print("YES") if is_balanced(str_brackets) else print("NO")
