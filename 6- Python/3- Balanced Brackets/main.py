@@ -1,53 +1,55 @@
 def is_balanced(brackets):
     """
     This function takes a string of brackets as an input and returns whether it's balanced or not.
-
-    Args:
-        brackets (str): The string of brackets to check.
-
-    Returns:
-        bool: True if the brackets are balanced, False otherwise.
     """
-    stack = []  # Initialize a stack to keep track of the opening brackets
-    mapping = {')': '(', '}': '{', ']': '['}  # Define a mapping of opening to closing brackets
+    # Initialize a list to keep track of opening brackets
+    stack = []
+    # Define a mapping of opening to closing brackets
+    mapping = {')': '(', '}': '{', ']': '['}
 
-    # Iterate through each bracket in the input string
     for bracket in brackets:
-        if bracket in mapping:  # If the current character is a closing bracket
-            if not stack:  # If there are no opening brackets on the stack, the brackets are not balanced
+        # If closing bracket check
+        if bracket in mapping:
+            # If list is empty, the string is not balanced
+            if not stack:
                 return False
-            # Pop the top element from the stack and check if it matches the current closing bracket
-            top_element = stack.pop()
-            if mapping[bracket] != top_element:
-                return False
-        else:  # If the current character is an opening bracket, push it onto the stack
+            else:
+                # Pop the last element and check if it matches the current closing bracket
+                last_element = stack.pop()
+                if mapping[bracket] != last_element:
+                    return False
+        # If opening bracket, push it onto the list
+        else:
             stack.append(bracket)
 
-    # If the stack is empty, the brackets are balanced. Otherwise, they're not balanced.
+    # If the final list is empty, the brackets are balanced. Otherwise, they're not.
     return not stack
 
 
 while True:
     str_brackets = input("Please enter the brackets string: ")
-
-    if not str_brackets:
-        print("Empty!")
-        continue
-    elif str_brackets.isspace():
-        print("Spaces error!")
-        continue
+    # Exit program with empty input or only white spaces
+    if not str_brackets or str_brackets.isspace():
+        break
+    # Remove white spaces in a string
     else:
         str_brackets = str_brackets.replace(" ", "")
 
-    if str_brackets == "exit":
-        break
-
     error_list = []
+    # Limit input string to be only brackets
     for char in str_brackets:
         if char not in ['(', ')', '[', ']', '{', '}']:
+            # Fill the error list with 1's for every non bracket char
             error_list.append(1)
+    # If error list is not empty, print error and continue
     if error_list:
-        print("input error!")
+        print("Error! This program is made to check only brackets input\n[(, ), [, ], {, }]"
+              "\nPlease don't provide any other character.\n")
+        print("You can Exit program if you pressed enter without any input.\n")
         continue
 
+    # Function call and result printing
     print("YES") if is_balanced(str_brackets) else print("NO")
+    print("You can Exit program if you pressed enter without any input.\n")
+
+print("\nProgram stopped, Have a good day!\n")
