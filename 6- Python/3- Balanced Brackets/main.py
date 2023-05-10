@@ -43,7 +43,7 @@ while True:
             error_list.append(1)
     # If error list is not empty, print error and continue
     if error_list:
-        print("Error! This program is made to check only brackets input\n[(, ), [, ], {, }]"
+        print("Error! This program is made to check only brackets input [(, ), [, ], {, }]"
               "\nPlease don't provide any other character.\n")
         print("You can Exit program if you pressed enter without any input.\n")
         continue
