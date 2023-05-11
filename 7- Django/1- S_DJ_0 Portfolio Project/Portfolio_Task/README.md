@@ -36,7 +36,7 @@ _Islam Khaled_
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d20a662d-be37-4e04-9ee7-366c96a30233)
 
 - Create a view for the cv page:
-- ```Code File``` [cv view.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/cv/views.py)
+- ```Code File``` [cv views.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/cv/views.py)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5319e2b9-0247-4fe6-ad21-a6b02619129f)
 
