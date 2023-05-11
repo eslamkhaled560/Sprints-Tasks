@@ -14,3 +14,7 @@ Program code is provided here: [Balanced Brackets](https://github.com/eslamkhale
 
 -----------------------------------------
 ### Output:
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/6919e721-2a0a-43bb-bd6e-861c4e093ea0)
+
+-----------------------------------------
