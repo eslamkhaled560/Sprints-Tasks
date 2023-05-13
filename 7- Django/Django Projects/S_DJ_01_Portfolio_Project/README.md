@@ -12,7 +12,7 @@ _Islam Khaled_
 ## Project Initialization:
 
 - Activate existing environment and start new project called ```S_DJ_01_Portfolio_Project```:
-- I worked with the same environment from the first task ```Dj_env```, as all I need is Django and It's already installed there.
+- I worked with the same environment from the first task ```Dj-env```, as all I need is Django and It's already installed there.
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d15d2c41-ad21-45a4-9094-2f2b8b280499)
 ![1](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/35ec6239-922c-44bf-9cea-824eae40b5cd)
