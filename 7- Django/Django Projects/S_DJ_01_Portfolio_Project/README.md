@@ -46,9 +46,13 @@ _Islam Khaled_
 
 ![7](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5f2de9b3-00d2-45bd-ac61-a5fb46b99b63)
 
-- Create the database tables again and checking ```myapp/migrations``` directory:
+- Create the database tables again:
 
 ![9](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1b2b7537-b280-4ee5-8bbe-928266656447)
+
+- Check ```myapp/migrations``` directory:
+- Code File >> [myapp/migrations](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_01_Portfolio_Project/myapp/migrations/0001_initial.py)
+
 ![8](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/7b7acd3a-02e6-411b-854c-f2c98dda9e02)
 
 -----------------------------------------
