@@ -31,27 +31,27 @@ _Islam Khaled_
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/7367a22a-eecc-4156-91fa-046ce24e2e31)
 
 - Creating cv.html inside our app templates directory:
-- ```Code File``` [cv.html](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/cv/templates/cv.html)
+- ```Code File``` [cv.html](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_0%20Portfolio%20Project/cv/templates/cv.html)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d20a662d-be37-4e04-9ee7-366c96a30233)
 
 - Create a view for the cv page:
-- ```Code File``` [cv views.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/cv/views.py)
+- ```Code File``` [cv views.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_0%20Portfolio%20Project/cv/views.py)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5319e2b9-0247-4fe6-ad21-a6b02619129f)
 
 - Adding the URL route for the cv page:
-- ```Code File``` [cv urls.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/cv/urls.py)
+- ```Code File``` [cv urls.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_0%20Portfolio%20Project/cv/urls.py)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/e4691e90-6847-4a54-8db8-669506e6cc14)
 
 - Including the URL route in the main project:
-- ```Code File``` [Portfolio_Task urls.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/Portfolio_Task/urls.py)
+- ```Code File``` [Portfolio_Task urls.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_0%20Portfolio%20Project/Portfolio_Task/urls.py)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/dd15efd3-2f28-4238-b643-64c7aaed5980)
 
 - Adding the cv app in te main project installed apps settings:
-- ```Code File``` [Portfolio_Task settings.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/1-%20S_DJ_0%20Portfolio%20Project/Portfolio_Task/Portfolio_Task/settings.py)
+- ```Code File``` [Portfolio_Task settings.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_0%20Portfolio%20Project/Portfolio_Task/settings.py)
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/c92ab0f8-a5a3-42cd-86f7-8ee1fabdba0b)
 
