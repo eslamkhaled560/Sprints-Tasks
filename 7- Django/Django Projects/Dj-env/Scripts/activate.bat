@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=D:\New folder\Sprints\Tasks\7- Django\S_DJ_0 Portfolio Project\Dj-env"
+@set "VIRTUAL_ENV=D:\New folder\Sprints\Tasks\7- Django\Django Projects\Dj-env"
 
 @if defined _OLD_VIRTUAL_PROMPT (
     @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"

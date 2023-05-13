@@ -31,7 +31,7 @@ export-env {
     }
 
     let is_windows = ($nu.os-info.name | str downcase) == 'windows'
-    let virtual_env = 'D:\New folder\Sprints\Tasks\7- Django\S_DJ_0 Portfolio Project\Dj-env'
+    let virtual_env = 'D:\New folder\Sprints\Tasks\7- Django\Django Projects\Dj-env'
     let bin = 'Scripts'
     let path_sep = (char esep)
     let path_name = (if $is_windows {
