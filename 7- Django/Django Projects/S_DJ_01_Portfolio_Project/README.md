@@ -38,6 +38,7 @@ _Islam Khaled_
 ![6](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/89bf17d8-7602-482c-9839-01c929918b33)
 
 - Add ```myapp``` to INSTALLED_APPS in ```settings.py``` file:
+- Code File >> [S_DJ_01_Portfolio_Project/settings.py](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/7-%20Django/Django%20Projects/S_DJ_01_Portfolio_Project/S_DJ_01_Portfolio_Project/settings.py)
 
 ![7](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5f2de9b3-00d2-45bd-ac61-a5fb46b99b63)
 
@@ -79,7 +80,7 @@ _Islam Khaled_
 
 ![15](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/90979684-88c1-4d02-933c-faa9969dd269)
 
-- delete:
+- Delete:
 
 ![16](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/adce3525-c07d-4d38-8e00-aa48a9924402)
 
