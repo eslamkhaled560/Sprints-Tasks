@@ -8,6 +8,8 @@ _Islam Khaled_
 
 15 May 2023
 
+__The complete project exists in the repo you can check it from the path above or from this link [Project](https://github.com/eslamkhaled560/Sprints-Tasks/tree/main/7-%20Django/Django%20Projects/S_DJ_01_Portfolio_Project), You will find another ```README.md```, It was for Task 2.    
+Sorry for any inconvenience.__
 -----------------------------------------
 ## Project Initialization:
 
