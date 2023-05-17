@@ -20,7 +20,7 @@ FROM nginx
 # Copy the HTML content to the default Nginx web server directory
 COPY index.html /usr/share/nginx/html
 ```
-- [index.heml](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/8-%20Microservices%20and%20Docker/S_Microservices_02%20Docker%20Ngnix%20with%20specific%20HTML/index.html)
+- [index.html](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/8-%20Microservices%20and%20Docker/S_Microservices_02%20Docker%20Ngnix%20with%20specific%20HTML/index.html)
 ```
 <!DOCTYPE html>
 <html>
