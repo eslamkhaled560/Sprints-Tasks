@@ -6,7 +6,7 @@ import re
 # Create file with today's datetime
 file_name = f"contactbook_{datetime.today().strftime('%d%m%Y')}.csv"
 
-
+# Validate email input (email@example.com)
 def validate_email(email):
     pattern = r'^[\w\.-]+@[\w\.-]+\.\w+$'
     if re.match(pattern, email):
@@ -16,6 +16,12 @@ def validate_email(email):
 
 
 def validate_phone(phone_num):
+    '''
+    Return True if a phone numbr input matches a specific pattern
+    - Only digits included
+    - May start with plus (+) sign, and have one or more hyphen (-) signs in between
+    - May contain commas (,) to separete two or more numbers 
+    '''
     pattern = r'^\+?\d+(?:-?\d+)*(?:,\+?\d+(?:-?\d+)*)?$'
     if re.match(pattern, phone_num):
         return True
@@ -139,6 +145,7 @@ while True:
         email = values['-EMAIL-']
         phone_numbers = values['-PHONE-'].split(',')
         address = values['-ADDRESS-']
+        # Validate input email and phone number
         if validate_email(email):
             if validate_phone(values['-PHONE-']):
                 save_contact(username, email, phone_numbers, address)
@@ -154,6 +161,7 @@ while True:
         email = values['-EMAIL-']
         phone_numbers = values['-PHONE-'].split(',')
         address = values['-ADDRESS-']
+        # Validate updated email and phone number
         if validate_email(email):
             if validate_phone(values['-PHONE-']):
                 update_contact(username, email, phone_numbers, address)
