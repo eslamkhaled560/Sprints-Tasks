@@ -6,7 +6,7 @@ _Basma Nasser_
 **Presented by:**   
 _Islam Khaled_    
 
-19 May 2023
+21 May 2023
 
 -----------------------------------------        
 This project is a contact book application that allows users to manage their contacts through a graphical user interface (GUI) built with PySimpleGUI. Users can perform various operations such as creating, saving, updating, deleting, listing, and searching contacts. Additionally, the application validates the email and phone number(s) for each contact.
