@@ -12,7 +12,7 @@ _Islam Khaled_
 This project is a contact book application that allows users to manage their contacts through a graphical user interface (GUI) built with PySimpleGUI. Users can perform various operations such as creating, saving, updating, deleting, listing, and searching contacts. Additionally, the application validates the email and phone number(s) for each contact.
 
 -----------------------------------------
-## Features:
+## Features
 
 __Daily CSV File Creation:__    
 The application automatically creates a new CSV file for each day to store contact data. This ensures that the contact book remains organized and allows users to track changes over time.
