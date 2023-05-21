@@ -30,7 +30,7 @@ __List Contacts:__
 The application displays a list of all contacts from the current day's CSV file. Users can easily view their contacts and access their details.
 
 __Search Contacts:__        
-Users can search for specific contacts by providing a first name. The application scans the contact list and displays the matching contacts, allowing users to quickly find the desired information.
+Users can search for specific contacts by providing the first name. The application scans the contact list and displays the matching contacts, allowing users to quickly find the desired information.
 
 __Contact Validation:__         
 The application validates email and phone number(s) for each contact to ensure they adhere to the specified formats. Users will be alerted if they enter invalid contact details.
