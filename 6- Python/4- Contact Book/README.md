@@ -18,7 +18,7 @@ __Daily CSV File Creation:__
 The application automatically creates a new CSV file for each day to store contact data. This ensures that the contact book remains organized and allows users to track changes over time.
 
 __Save Contacts:__    
-Users can add new contacts and save them to the current day's CSV file. The application prompts users to enter details such as name, email, phone number(s), and adress.
+Users can add new contacts and save them to the current day's CSV file. The application prompts users to enter details such as name, email, phone number(s), and address.
 
 __Update Contacts:__     
 Users can update existing contacts by selecting them with the name and modifying their details. The updated information is then saved to the CSV file.
