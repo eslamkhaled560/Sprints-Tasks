@@ -54,7 +54,7 @@ Can't force deletion of images with running containers, we should stop it first 
 - We can use this command on powershell to delete all images ```docker rmi -f $(docker images -q)``` as we pass images IDs to the remove command.      
 - As a safer option we can use ```docker image prune -a```: This command will delete all unused images on the host, freeing up disk space.
 
-I will delete only images used in this task.
+I will only delete images used in this task.
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/17e32920-51f7-4af9-ba9f-f77709be1627)      
 
