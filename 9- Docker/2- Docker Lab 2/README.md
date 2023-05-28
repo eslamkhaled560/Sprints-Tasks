@@ -33,7 +33,7 @@ _Islam Khaled_
 
 ## 5- Pull the code from https://github.com/sabreensalama/dockerize-node-app-task and create a docker file for this node app.
 
-[https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/9-%20Docker/2-%20Docker%20Lab%202/dockerize-node-app-task/Dockerfile](Dockerfile):
+[Dockerfile](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/9-%20Docker/2-%20Docker%20Lab%202/dockerize-node-app-task/Dockerfile):
 ```
 FROM node:16
 WORKDIR /app
