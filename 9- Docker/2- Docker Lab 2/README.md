@@ -31,30 +31,24 @@ _Islam Khaled_
 
 ![61](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5b9efdfb-7538-4e7c-9871-72f2cc863b80)
 
-## 5- Pull the code from https://github.com/sabreensalama/simple-flask-app/tree/main and create a docker file for this flask app.
-
-![7](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/25be8b9d-6bd2-487d-8cee-3dbab4979a99)
+## 5- Pull the code from https://github.com/sabreensalama/dockerize-node-app-task and create a docker file for this node app.
 
 Dockerfile:
 ```
-FROM python:3.8
-WORKDIR /flask-app
+FROM node:16
+WORKDIR /app
+COPY package.json ./
+RUN npm install
 COPY . .
-RUN pip install -r requirements.txt
-EXPOSE 5000
-CMD ["python", "app.py"]
+EXPOSE 8080
+CMD [ "node", "server.js" ]
 ```
 
-requirements.txt:
-```
-Flask==1.1.4
-jinja2==2.11.3
-markupsafe==2.0.1
-```
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/3aa8ff24-e99e-4cc2-844a-634c8378d928)
 
-![10](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/2f051e54-87c9-4f76-b2b4-e09bfd633747)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/bafcf8f6-be13-4601-aae0-72bd53744c22)
 
-![11](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/537fd918-f7c1-47b1-8ad4-d83c353664e1)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/30ad33b9-12fc-4cb5-acba-3f9c03d442aa)
 
 ## 6- Create a volume called mysql_data, run a mysql container again, but this time map a volume to the container so that the data stored by the container is stored at /opt/data on the host. use the same name : mysql-db and same password : db_pass123 as before. Mysql stores data at /var/lib/mysql inside the container.
 
