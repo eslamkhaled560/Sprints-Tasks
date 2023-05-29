@@ -1,0 +1,22 @@
+version: "3.9"
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: islam
+      MYSQL_DATABASE: islam-db
+    volumes:
+      - db_data:/var/lib/mysql
+
+  app:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "8080:8080"
+    volumes:
+      - app_data:/usr/src/app/data
+
+volumes:
+  db_data:
+  app_data:
