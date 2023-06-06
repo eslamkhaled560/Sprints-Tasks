@@ -9,7 +9,10 @@ _Islam Khaled_
 1 June 2023
 
 -----------------------------------------
+I sincerely apologize for the delay in my submission. Despite the tardiness, I assure you that I have diligently completed the task before deadline. However, I overlooked scheduling it for delivery.               
+I hope you accept my apology.
 
+-----------------------------------------
 ## Create ec2 and install nnginx on it.
 Required: screenshot From accessing the machine public ip from the browser
 
