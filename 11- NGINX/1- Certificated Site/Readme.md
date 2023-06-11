@@ -1,4 +1,4 @@
-# AWS Lab 4 - Load Balancers
+# NGINX TASK
 
 **Presented to:**    
 _Mohammed Omar_    
