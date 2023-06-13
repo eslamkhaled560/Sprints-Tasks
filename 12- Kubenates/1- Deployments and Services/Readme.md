@@ -1,4 +1,4 @@
-# K8S Task - Deploy 3 NHINX replicas
+# K8S Task - Deploy 3 NGINX replicas
 
 **Presented to:**    
 _Mohammed Omar_    
