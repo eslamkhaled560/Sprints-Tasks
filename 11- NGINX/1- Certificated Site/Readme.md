@@ -23,23 +23,3 @@ I used AWS ubuntu instance to complete this task.
 ![2](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/c82bb7a2-b49f-480b-84a7-07c4ba2dcfac)
 
 -----------------------------------------
-## Configure the same website to serve traffic with SSL self signed certificate
-
-1- Configure domain name in ```hosts``` file
-
-![5](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/cfea2f10-9dfa-4f6d-b978-102b7eff3c32)
-![4](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/2d666065-1f31-405a-b9d8-536f770fe7e6)
-
-2- Configure ```/etc/nginx/sites-enabled/default``` with SSL certificate
-
-![3](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/44996333-f9b3-4d40-8d79-05fa68935ed8)
-
-3- Self-trust certificate authority
-
-![7](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/b6d8c9c7-5a04-447d-a4b1-962dc2d2253e)
-
-4- Secured Domain ```https://islam-khaled.com```
-
-![6](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/40334a23-7199-480e-b42b-d677d83c4ef1)
-
------------------------------------------
