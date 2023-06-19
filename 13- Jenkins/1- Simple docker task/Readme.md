@@ -1,4 +1,4 @@
-# Jenkins Task 1
+# Jenkins Task 1 - Freestyle Pipeline
 
 **Presented to:**    
 _Mohamed Swelam_    
