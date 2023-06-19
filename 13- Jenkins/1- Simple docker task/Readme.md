@@ -9,6 +9,7 @@ _Islam Khaled_
 19 June 2023
 
 -----------------------------------------
+-----------------------------------------
 ## 1- What is Jenkins used for?
 
 Jenkins is an open source continuous integration/continuous delivery and 
@@ -19,12 +20,14 @@ deployment (CI/CD) automation software DevOps tool.
 - Jenkins has a vast plugin ecosystem that extends its functionality. 
 
 -----------------------------------------
+-----------------------------------------
 ## 2- Install jenkins with docker image.
 
-![1](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/0c2aad4b-1880-40eb-a943-d095753a9000)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/e4694e49-3db5-4db3-8da8-b26277edea42)
 ![2](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d3eb487d-5d65-45b7-b366-946ff5cac758)
 ![3](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/b46d1284-fb36-4c31-934c-61229c188686)
 
+-----------------------------------------
 -----------------------------------------
 ## 3- what is plugins in jenkins ?
 
@@ -34,38 +37,67 @@ Jenkins' capabilities and integrate Jenkins with other software such as building
 like ```maven``` and ```npm```.
 
 -----------------------------------------
+-----------------------------------------
 ## 4- Create free style project and link it to private git repo containing any dockerfile then build an image from this dockerfile and push it to private docker repo
 
-I used 2 approaches __(VM, WSL)__ in this section because I encountered and error using VM and I fixed it. it will be illustrated below.
+I used 2 approaches __(VM, WSL)__ in this section because I encountered and error using VM and I fixed it. everything will be illustrated below.
 
 - [Link to the used repository.](https://github.com/ianmiell/simple-dockerfile)
 
-### 1- VM approach
+-----------------------------------------
+### 1- VM approach with modified jenkins image
 
-- Creating ```simple-docker``` freestyle
+- When I try to access docker inside the jenkins container I get this error
 
-![5](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/4be31141-21dd-4f5f-8b0d-0bba4381957e)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/21e0e6d3-9926-431a-9656-65409b0a0925)
+
+- After searching I knew the reason
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/5dfe6fc4-446a-466f-ad02-6a94fea0f174)
+
+- The solusion is to use this [Dockerfile](https://github.com/eslamkhaled560/Sprints-Tasks/blob/main/13-%20Jenkins/1-%20Simple%20docker%20task/Dockerfile) to build the jenkins image with docker
+```
+FROM jenkins/jenkins:lts
+USER root
+RUN apt-get update -y
+RUN apt-get install apt-transport-https curl gnupg-agent ca-certificates software-properties-common -y
+RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+RUN add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" -y
+RUN apt-get update -y
+RUN apt-get install docker-ce docker-ce-cli containerd.io -y
+
+RUN usermod -aG docker jenkins
+```
+- Build modified image
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/6e379c72-3a45-4b3c-9017-ae3aa0e839a0)
+
+- Run modified image, now docker is working inside the jenkins container
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/49e5de8c-fc99-4a70-81f7-2fcf46da6c10)
 
 - Configuring ```github``` and ```docker hub``` credentials:
 
-![7](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/9389fcfb-c5fc-44c8-ab1a-47c34acf626f)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/324fce43-8bf8-4239-9b93-d9c0be4a253f)
+
+- Configure ```simple-docker``` freestyle
+
 ![6](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1b8dc362-d7e8-42ed-b1c8-3e6db989b6c3)
 ![8](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/23712649-dd3a-4ad1-a670-85f984abcdc9)
-
-- Execute Shell
-
-![9](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/9dbba99c-84b5-4885-b023-17a2910c0ea2)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/38bd2116-1a28-4fa5-9874-3b5121fc97c8)
 
 - Build output
 
-![10](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/7f0cd12a-c688-4129-90c6-28217a7c2f9b)
-![11](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/91971cee-5f07-4652-8476-7c5e8f371c03)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/c674da41-ac69-4041-943d-bad9b22984e8)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/15a73f51-8c51-4f8e-9f04-1896940aadcf)
 
-- My docker hub repo
+- My private docker hub repo 
+  > Note that the ```wsl``` tag created first, steps are provided below
 
-![12](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/24174030-ed24-4340-ab3c-d6b9c0c78492)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/7d99a663-0159-4a18-b9a3-5dcddbd0bfe9)
 
-### 2- WSL (Windows Subsystem Linux) approach
+-----------------------------------------
+### 2- WSL (Windows Subsystem Linux) approach with basic jenkins lts image
 
 - Run jenkins container with docker configuration
 
@@ -94,4 +126,5 @@ I used 2 approaches __(VM, WSL)__ in this section because I encountered and erro
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/8291c8c8-f865-42f0-a240-223a95218a0d)
 
+-----------------------------------------
 -----------------------------------------
