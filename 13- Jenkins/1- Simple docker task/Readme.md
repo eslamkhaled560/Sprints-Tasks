@@ -83,15 +83,15 @@ I used 2 approaches __(VM, WSL)__ in this section because I encouuntered and err
 
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d8cfdc32-8fd4-4daf-8c9f-966c45fe0878)
 ![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/99917b21-ec95-4344-b9a4-7a07702a66b7)
-![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1aa07e61-c4ee-4e92-96ba-b158f8fede4b)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/f0b5715a-a30b-4c4e-a6c1-78f7a5b631d2)
 
 - Build output
 
-![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1c460ef9-446a-4f01-a55b-f559dd711334)
-![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/619c4084-690d-473d-b88f-1c123961694d)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/dd8068f9-2683-40b3-9da9-58378e8d0252)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/91fc7e8d-3bfb-4faf-9c00-c0af0f38b6ff)
 
-- My docker hub
+- My private docker hub repo
 
-![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/e117b401-d81a-4ebc-83a1-9d6400eaa5af)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/8291c8c8-f865-42f0-a240-223a95218a0d)
 
 -----------------------------------------
