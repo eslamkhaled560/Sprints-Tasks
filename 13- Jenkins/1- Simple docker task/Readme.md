@@ -40,7 +40,7 @@ like ```maven``` and ```npm```.
 -----------------------------------------
 ## 4- Create free style project and link it to private git repo containing any dockerfile then build an image from this dockerfile and push it to private docker repo
 
-I used 2 approaches __(VM, WSL)__ in this section because I encountered and error using VM and I fixed it. everything will be illustrated below.
+I used 2 approaches __(VM, WSL)__ in this section because I encountered an error using VM and I fixed it. everything will be illustrated below.
 
 - [Link to the used repository.](https://github.com/ianmiell/simple-dockerfile)
 
