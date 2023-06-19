@@ -36,7 +36,12 @@ like ```maven``` and ```npm```.
 -----------------------------------------
 ## 4- Create free style project and link it to private git repo containing any dockerfile then build an image from this dockerfile and push it to private docker repo
 
-- [Link to used repo](https://github.com/ianmiell/simple-dockerfile).
+I used 2 approaches __(VM, WSL)__ in this section because I encouuntered and error using VMm and it will be illustrated below and how i fixed it.
+
+- [Link to the used repository.](https://github.com/ianmiell/simple-dockerfile)
+
+### 1- VM approach
+
 - Creating ```simple-docker``` freestyle
 
 ![5](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/4be31141-21dd-4f5f-8b0d-0bba4381957e)
@@ -59,5 +64,34 @@ like ```maven``` and ```npm```.
 - My docker hub repo
 
 ![12](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/24174030-ed24-4340-ab3c-d6b9c0c78492)
+
+### 2- WSL (Windows Subsystem Linux) approach
+
+- Run jenkins container with docker configuration
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/18ecf18f-afa1-4e40-80bb-7741bf6ca18c)
+
+- As we saw, there was a denied permission to run docker inside the jenkins container, so I should change permissions for ```docker.sock```
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/c0165c8e-182f-42c1-b42b-33182c7a0d4a)
+
+- Configure credentials
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/ef7165ef-58cd-4ffd-9536-e2948f9bffc7)
+
+- ```docker-simple``` freestyle configurations
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/d8cfdc32-8fd4-4daf-8c9f-966c45fe0878)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/99917b21-ec95-4344-b9a4-7a07702a66b7)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1aa07e61-c4ee-4e92-96ba-b158f8fede4b)
+
+- Build output
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/1c460ef9-446a-4f01-a55b-f559dd711334)
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/619c4084-690d-473d-b88f-1c123961694d)
+
+- My docker hub
+
+![image](https://github.com/eslamkhaled560/Sprints-Tasks/assets/54172897/e117b401-d81a-4ebc-83a1-9d6400eaa5af)
 
 -----------------------------------------
