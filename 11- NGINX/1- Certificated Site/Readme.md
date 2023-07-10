@@ -1,7 +1,7 @@
 # NGINX TASK Part 1
 
 **Presented to:**    
-_Mohammed Omar_    
+_Mohammed Amr_    
 
 **Presented by:**   
 _Islam Khaled_    
