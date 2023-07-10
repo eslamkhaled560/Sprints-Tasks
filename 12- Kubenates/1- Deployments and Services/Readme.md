@@ -1,7 +1,7 @@
 # K8S Task - Deploy 3 NGINX replicas
 
 **Presented to:**    
-_Mohammed Omar_    
+_Mohammed Amr_    
 
 **Presented by:**   
 _Islam Khaled_    
